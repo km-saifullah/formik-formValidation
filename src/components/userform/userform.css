@@ -1,0 +1,53 @@
+/* ==== User Form Design Start ==== */
+.user_form {
+  padding: 0px 0;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 25px;
+  color: #222;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.form_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.input_fields {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.input_fields label {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.input_fields input {
+  padding: 10px;
+  width: 400px;
+  outline: none;
+  border: 1px solid goldenrod;
+}
+.btn {
+  padding: 10px 25px;
+  color: #222;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.error_text {
+  display: flex;
+  align-items: center;
+  background-color: rgb(236, 66, 47);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+/* ==== User Form Design End ==== */
